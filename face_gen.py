@@ -50,8 +50,8 @@ class FaceGen:
         img.paste(mouth, (0, 0), mouth)
         img.paste(eyes, (0, 0), eyes)
         img.paste(nose, (0, 0), nose)
-        img.paste(hair, (0, 0), hair)
         img.paste(ears, (0, 0), ears)
+        img.paste(hair, (0, 0), hair)
 
         return img
 
